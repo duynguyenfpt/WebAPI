@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbFoodModelStoreContainer" CdmEntityContainer="dbFoodEntities">
+    <EntitySetMapping Name="FakeAPIs">
+      <EntityTypeMapping TypeName="dbFoodModel.FakeAPI">
+        <MappingFragment StoreEntitySet="FakeAPI">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="NgayDiemDanh" ColumnName="NgayDiemDanh" />
+          <ScalarProperty Name="CaDiemDanh" ColumnName="CaDiemDanh" />
+          <ScalarProperty Name="GioDiemDanh" ColumnName="GioDiemDanh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
